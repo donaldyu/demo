@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5581eabd-35c5-4af1-bf1d-99fe74db8154" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ScratchCard/img/brush.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ScratchCard/img/gift.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ScratchCard/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ScratchCard/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ScratchCard/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScratchCard/index.js" afterPath="$PROJECT_DIR$/ScratchCard/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,9 +31,11 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ScratchCard/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1079">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-659">
+              <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +64,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>console</find>
+      <find>globalAlpha</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -273,12 +269,12 @@
       <updated>1524539575990</updated>
       <workItem from="1524539577282" duration="7442000" />
       <workItem from="1524621052526" duration="3915000" />
-      <workItem from="1524707261852" duration="682000" />
+      <workItem from="1524707261852" duration="1505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12039000" />
+    <option name="totallyTimeSpent" value="12862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -325,7 +321,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -364,7 +362,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1552">
           <caret line="99" column="23" lean-forward="false" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -403,9 +403,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ScratchCard/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1079">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-659">
+          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

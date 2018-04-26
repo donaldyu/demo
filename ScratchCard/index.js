@@ -1,7 +1,9 @@
 /**
  * Created by donaldyu on 2018/4/24.
  * 刮刮卡demo
- *
+ * 参考链接: https://www.w3cplus.com/canvas/compositing.html
+ * globalAlpha: 设置图像的透明度, 这个值必须设置在图形绘制之前
+ * globalCompositeOperation: 把图像源和目标图像进行混合
  */
 ;(function () {
     window.addEventListener('load', canvasHandler, false);
@@ -19,6 +21,8 @@
         canvas.width = width;
         canvas.height = height;
 
+        //跨域, 无内容解析为anonymous, <img>，<video>，<script>支持CORS(Cross-Origin Resource Sharing)（跨域资源共享）的属性
+        brush.crossOrigin = '';
         brush.src = './img/brush.png';
 
         //第一步监听鼠标或者触摸按下事件
@@ -115,6 +119,7 @@
 
         //获取刷子刷出的区域的百分比
         function getFilledInPixels(stride) {
+            //getImageData获取图片完整的像素信息
             let pixels = ctx.getImageData(0, 0, width, height),
                 pixelData = pixels.data,
                 pixelLength = pixelData.length,
