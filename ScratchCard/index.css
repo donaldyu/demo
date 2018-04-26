@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 20px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+#card {
+    width: 59.26%;
+    padding-top: 78.89%;
+    margin: 0 auto;
+    background: url(./img/gift.png) no-repeat center;
+    position: relative;
+}
+
+#card-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
