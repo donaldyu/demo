@@ -1,0 +1,28 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "一些有趣的Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donaldyu/demo.git"
+  },
+  "author": "donaldyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donaldyu/demo/issues"
+  },
+  "homepage": "https://github.com/donaldyu/demo#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "fs": "0.0.1-security",
+    "koa": "^2.5.1",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2"
+  }
+}
