@@ -71,6 +71,7 @@
             }
 
             startPoint = currentPoint;
+            //getImageData每四位一个像素单位包含r, g, b, a, 设置判断像素占比只需为4的倍数即可, 越小误差越小, 但会越卡
             handlePercentage(getFilledInPixels(32));
         }
 
