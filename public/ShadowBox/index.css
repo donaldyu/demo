@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.stage {
+    width: 160px;
+    height: 212px;
+    position: relative;
+    background: url(img/paff.png) no-repeat;
+    background-size: 100% 100%;
+    background-color: #000;
+    margin: 300px auto 0 auto;
+    box-shadow: 0 0 20px 10px #60acb8;
+    border-radius: 10px;
+    -webkit-transform-style:preserve-3d;
+    -webkit-perspective: 600px;
+    transform-origin: center;
+    animation: avatar-shake 3s ease-in-out infinite ;
+}
+
+.stage-shadow {
+    content: '';
+    display: block;
+    width: 160px;
+    height: 8px;
+    top: 612px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    animation: avatar-shadow-shake 3s ease-in-out infinite ;
+}
+
+.stage-left {
+    width: 400px;
+    height: 300px;
+    /*background: url(img/stage-left.png) no-repeat;*/
+    /*background-size: 100% 100%;*/
+    position: absolute;
+    top: 212px;
+    overflow: hidden;
+    -webkit-transform-style:preserve-3d;
+    -webkit-perspective: 600px;
+    left: 30%;
+    transform: translateX(-50%) rotate3d(0, 0, 1, 10deg);
+}
+
+.stage-left > img {
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes avatar-shake {
+    0% {
+        margin-top: 300px;
+        /*transform: rotateY(0);*/
+    }
+
+    50% {
+        margin-top: 270px;
+        /*transform: rotateY(180deg);*/
+    }
+
+    100% {
+        margin-top: 300px;
+        /*transform: rotateY(360deg);*/
+    }
+}
+
+@keyframes avatar-shadow-shake {
+    0% {
+        width: 160px;
+    }
+
+    50% {
+        width: 120px;
+    }
+
+    100% {
+        width: 160px;
+    }
+}

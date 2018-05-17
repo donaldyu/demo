@@ -1,0 +1,11 @@
+.background {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.avatar {
+    margin-top: 100px;
+    width: 60%;
+    max-width: 600px;
+}

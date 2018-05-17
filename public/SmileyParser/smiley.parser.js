@@ -13,8 +13,8 @@
         mLocalToGlobalMap = {},
         mGlobalToLocalMap = {},
         mSmileyV6Ids = [],
-        mLocalToGlobalPattern = null;
-        mGlobalToLocalPattern = null;
+        mLocalToGlobalPattern = null,
+        mGlobalToLocalPattern = null,
         host = 'http://cnbj1-inner-fds.api.xiaomi.net/live/activity/emoji/img/';
 
     var Parser = function () {
@@ -23,11 +23,16 @@
         }
 
         //init mSmileyV6Ids url array
-        for(var i = 1; i <= 63; i++) {
-            mSmileyV6Ids.push(host + 'mm0' + i + '.png');
+        for(var i = 1; i <= 62; i++) {
+            if(i < 10) {
+                mSmileyV6Ids.push(host + 'mm00' + i + '.png');
+            }
+            else {
+                mSmileyV6Ids.push(host + 'mm0' + i + '.png');
+            }
         }
 
-        for(var j = 1; j <= 45; j++) {
+        for(var j = 1; j <= 44; j++) {
             mSmileyV6Ids.push(host + 'e' + j + '.png');
         }
     };
